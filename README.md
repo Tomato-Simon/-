@@ -1,6 +1,6 @@
-# 特殊原因将停更大概2个月,下一次更新将是大版本更新,推出《酒店智慧系统2.0》，敬请期待。期间大家仍然可以watch，star，fork三连哟，以便有新版本第一时间获知！
+# 特殊原因将大概停更到8月中旬,下一次更新将是大版本更新,推出《酒店智慧系统2.0》，敬请期待。期间大家仍然可以watch，star，fork三连哟，以便有新版本第一时间获知！
 
-# HotelIntelligenceSystem
+# Hotel Sales-manegement Integrated System (酒店销售管理综合系统)
 
 ### 介绍
 > 酒店智慧系统，于2021.12完成。
@@ -34,7 +34,7 @@
 
 1.  hotel(front-end)项目安装依赖可能会报错，目前有一种解决方法：删除掉该目录下的package.json文件第15行代码,"vue-qr": "^3.2.4",然后终端键入命令：npm install,成功安装之后，在终端输入命令：npm install vue-qr，安装完成，完成该项目依赖的安装。
 2.  由于Websocket是使用get请求去握手的，所以单独需要在“hotel(front-end)/src/components/RoomManage.vue”文件下的initWebsocket()方法下修改服务端ip地址。其他ip地址到对应的request.js中或者application.yaml中修改即可
-3.  xxxx
+3.  数据库sql文件在根目录，请先创库导入后，更改后端代码配置文件的对应url和账号密码后再启动
 
 
 
@@ -61,7 +61,6 @@
 
 - **fuxiao_lee (925194376@qq.com)（main）**
 - tomato-simon (1499602163@qq.com)（Secondary main）
-- lingyu1412 (9770826+lingyu1412@user.noreply.gitee.com)
 
 
 
@@ -88,12 +87,3 @@
 
 
 
-
-### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目.
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
